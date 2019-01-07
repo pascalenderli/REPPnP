@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC  -Wall   -O3  -std=c++11 -g  -shared -Wl,-soname,libtf.so -o ../lib/libtf.so CMakeFiles/tf.dir/src/transform.cpp.o CMakeFiles/tf.dir/src/scaled_transform.cpp.o 

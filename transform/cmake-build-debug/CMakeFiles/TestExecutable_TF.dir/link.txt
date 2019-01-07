@@ -1,0 +1,1 @@
+/usr/bin/c++   -Wall   -O3  -std=c++11 -g  -rdynamic CMakeFiles/TestExecutable_TF.dir/test/test_transform.cpp.o  -o ../bin/TestExecutable_TF -Wl,-rpath,/home/pascal/tf/lib -Wl,-Bstatic -lgtest -Wl,-Bdynamic ../lib/libtransform.so -lpthread 

@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC  -Wall   -O3  -std=c++11 -g  -shared -Wl,-soname,libtransform.so -o ../lib/libtransform.so CMakeFiles/transform.dir/src/transform.cpp.o CMakeFiles/transform.dir/src/scaled_transform.cpp.o -lpthread 
